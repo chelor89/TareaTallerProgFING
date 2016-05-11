@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/09/2014, 01:13:51 PM
+    Author     : Marcelo
+*/
+
+@import url('//cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css');
+    
+    body .wrapper{
+        min-height:500px; 
+        height: auto !important;  /* Firefox will set height as auto */
+    }
+    .form-size{ width: 150px }
+    .blanco{color:white;}
+    #header{margin-bottom: 2%;background-color: #1A242E}
+    #contenido{padding-top:20px; padding-bottom: 20px}
+    
+    /* Footer*/
+    footer {background-color: #1A242E; margin-top: 50px; text-align: center; padding-bottom: 25px;}
+    footer > div.section {margin-left: 5px;width: 230px; display: inline-block; vertical-align: top;}
+    footer > div.section .header {background-color: #0C1117;margin: 27px 16px 0 16px;border-radius: 10px;padding: 1px 0;color: #E8EBF0;text-align: left;padding-left: 20px;}
+    footer > div.section .body { display: inline-block;margin-top: 15px;}
+    footer > div.section.links .link {vertical-align: top;width: 80%; display: inline-block; text-align: left;margin-top: 5px;}
+    footer > div.section.links .link a {color:#888;font-size: 13px;font-size: 13px; cursor:pointer;}
+    footer > div.section.subscribe {}
+    footer > div.section.subscribe .body {width: 214px;margin-top: 20px;position:relative;}
+    footer > div.section.subscribe div.subs-text {text-align: left;}
+    footer > div.section.subscribe div.subs-text.first {color: #BFE8FC;font-weight: bold;}
+    footer > div.section.subscribe div.subs-text.last {color: #747474;font-size: 13px;}
+    footer > div.section.subscribe img {float: left;position: relative;top: 8px;margin-right: 8px;margin-left: 8px;}
+    footer > div.section.subscribe input {width: 4px;border-radius: 14px;margin-top: 5px;height: 16px;padding-left: 12px;}
+    footer > div.section.subscribe button {float: right;border-radius: 14px;height: 26px;line-height: 19px;}
+    footer > div.section.subscribe .body .success {position: absolute;width: 214px;height:110px; background-color: #1A242E;}
+    footer > div.section.subscribe .body .success .title {margin-right: 10px;font-size: 22px;font-weight: 600;vertical-align: middle;color: #333745;margin-left: 18px;margin-bottom: 12px;height: 24px;line-height: 24px;margin-top: 10px;color: #E9E9E9;}
+    footer > div.section.subscribe .body .success .desc {color: white;}
+    
+    /* Fuente Gotham*/
+    @font-face {
+	font-family: 'GothamLight';
+	src: url('/media/fonts/GothamLight.eot');
+	src: local('GothamLight'), url('/media/fonts/GothamLight.woff') format('woff'), url('/media/fonts/GothamLight.ttf') format('truetype');
+    }
+    body {
+            font-family: 'GothamLight' !important;
+    }
+    
+    .ec-stars-wrapper {
+	/* Espacio entre los inline-block (los hijos, los `a`) 
+	   http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+	font-size: 0;
+	/* Podríamos quitarlo, 
+		pero de esta manera (siempre que no le demos padding), 
+		sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+		también se esté haciendo hover a alguna estrella */
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 1.2rem;
+	
+	color: #888;
+}

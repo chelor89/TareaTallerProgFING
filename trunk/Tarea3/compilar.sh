@@ -1,0 +1,9 @@
+cd Servidor/Logica
+sh compilarServidor.sh
+cd ..
+cd ..
+cd Cliente/Web
+sh compilarWeb.sh
+cd ..
+cd Movil
+sh compilarMovil.sh

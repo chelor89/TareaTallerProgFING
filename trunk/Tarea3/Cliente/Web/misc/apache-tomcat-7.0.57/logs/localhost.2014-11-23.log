@@ -1,0 +1,56 @@
+nov 23, 2014 10:19:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: prueba:Initializing filter
+nov 23, 2014 10:19:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: FiltroRestaurantes:Initializing filter
+nov 23, 2014 10:19:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+nov 23, 2014 10:19:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+nov 23, 2014 10:19:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@682ae684')
+nov 23, 2014 10:23:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: prueba:Initializing filter
+nov 23, 2014 10:23:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: FiltroRestaurantes:Initializing filter
+nov 23, 2014 10:26:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+nov 23, 2014 10:26:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+nov 23, 2014 10:27:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: prueba:Initializing filter
+nov 23, 2014 10:27:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: FiltroRestaurantes:Initializing filter
+nov 23, 2014 10:27:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+nov 23, 2014 10:27:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+nov 23, 2014 10:27:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3c8ebbcc')
+nov 23, 2014 10:28:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+nov 23, 2014 10:28:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+nov 23, 2014 10:31:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: prueba:Initializing filter
+nov 23, 2014 10:31:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: FiltroRestaurantes:Initializing filter
+nov 23, 2014 10:31:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+nov 23, 2014 10:31:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+nov 23, 2014 10:31:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3c8ebbcc')
+nov 23, 2014 10:37:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+nov 23, 2014 10:37:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+nov 23, 2014 10:37:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: prueba:Initializing filter
+nov 23, 2014 10:37:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: FiltroRestaurantes:Initializing filter
+nov 23, 2014 10:37:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+nov 23, 2014 10:37:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+nov 23, 2014 10:37:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4a6c168f')

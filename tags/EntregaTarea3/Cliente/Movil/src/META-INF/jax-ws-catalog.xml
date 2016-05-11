@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:9128/publicadorMovil?wsdl" uri="wsdl/localhost_9128/publicadorMovil.wsdl"/>
+    <system systemId="http://localhost:9128/publicadorMovil?xsd=1" uri="wsdl/localhost_9128/publicadorMovil.xsd_1.xsd"/>
+    <system systemId="http://localhost:9128/publicadorMovil" uri="wsdl/localhost_9128/publicadorMovil.xml"/>
+    <system systemId="http://pc128862:9128/publicadorMovil?wsdl" uri="wsdl/pc128862_9128/publicadorMovil.wsdl"/>
+    <system systemId="http://pc128862:9128/publicadorMovil?xsd=1" uri="wsdl/pc128862_9128/publicadorMovil.xsd_1.xsd"/>
+    <system systemId="http://pcunix30:9128/publicadorMovil?wsdl" uri="wsdl/pcunix30_9128/publicadorMovil.wsdl"/>
+    <system systemId="http://pcunix30:9128/publicadorMovil?xsd=1" uri="wsdl/pcunix30_9128/publicadorMovil.xsd_1.xsd"/>
+    <system systemId="http://pcunix31:9128/publicadorMovil?wsdl" uri="wsdl/pcunix31_9128/publicadorMovil.wsdl"/>
+    <system systemId="http://pcunix31:9128/publicadorMovil?xsd=1" uri="wsdl/pcunix31_9128/publicadorMovil.xsd_1.xsd"/>
+    <system systemId="http://pcunix113:9128/publicadorMovil?wsdl" uri="wsdl/pcunix113_9128/publicadorMovil.wsdl"/>
+    <system systemId="http://pcunix113:9128/publicadorMovil?xsd=1" uri="wsdl/pcunix113_9128/publicadorMovil.xsd_1.xsd"/>
+</catalog>

@@ -1,0 +1,11 @@
+Despues de hacer cambios en la logica:
+
+1) Compilar el proyecto Tprog (El martillito con la escoba)
+
+2) Copiar la ruta de la carpeta NetBeansProjects al porta papeles (Ej: D:\WINDOWS\Usuarios\Carlitos\Documents\NetBeansProjects )
+
+3) Ejecutar MODIFICAR_LOGICA.bat (desde adentro de la carpeta "Logica")
+
+4) Pegar la ruta copiada en la consola y dar Enter
+
+5) Comitear el proyecto QuickOrder

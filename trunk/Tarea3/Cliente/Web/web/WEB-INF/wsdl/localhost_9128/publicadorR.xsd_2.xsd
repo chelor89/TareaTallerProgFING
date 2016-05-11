@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e. --><xs:schema xmlns:tns="http://Publicar/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://Publicar/">
+
+<xs:complexType name="dataRestaurante">
+<xs:sequence>
+<xs:element name="nombre" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nick" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="direccion" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="mail" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="imagenes" type="tns:bufferedImage" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+<xs:element name="promociones" type="tns:dataProducto" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+<xs:element name="individuales" type="tns:dataProducto" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+<xs:element name="categorias" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+<xs:element name="puntaje" type="xs:float"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="bufferedImage">
+<xs:sequence>
+<xs:element name="data" type="tns:raster" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="raster">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dataProducto">
+<xs:sequence>
+<xs:element name="nombre" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nombreRes" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="mailRes" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nickRes" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="tipo" type="xs:int"></xs:element>
+<xs:element name="precio" type="xs:int"></xs:element>
+<xs:element name="precioXLineaDeVenta" type="xs:int"></xs:element>
+<xs:element name="descripcion" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="imagen" type="tns:bufferedImage" minOccurs="0"></xs:element>
+<xs:element name="activada" type="xs:boolean"></xs:element>
+<xs:element name="descuento" type="xs:int"></xs:element>
+<xs:element name="cantidad" type="xs:int"></xs:element>
+<xs:element name="individuales" type="tns:dataCantInd" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+<xs:element name="pedidos" type="tns:dataPedido" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dataCantInd">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dataPedido">
+<xs:sequence>
+<xs:element name="nickCli" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="mail" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nickRes" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nombreRes" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="fecha" type="tns:dataFecha" minOccurs="0"></xs:element>
+<xs:element name="precioT" type="xs:int"></xs:element>
+<xs:element name="idP" type="xs:int"></xs:element>
+<xs:element name="estado" type="tns:estado" minOccurs="0"></xs:element>
+<xs:element name="productos" type="tns:dataProducto" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+<xs:element name="cliente" type="tns:dataCliente" minOccurs="0"></xs:element>
+<xs:element name="comentario" type="tns:dataComentario" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dataFecha">
+<xs:sequence>
+<xs:element name="Año" type="xs:int"></xs:element>
+<xs:element name="Mes" type="xs:int"></xs:element>
+<xs:element name="Dia" type="xs:int"></xs:element>
+<xs:element name="Hora" type="xs:int"></xs:element>
+<xs:element name="Minuto" type="xs:int"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dataCliente">
+<xs:sequence>
+<xs:element name="nick" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="mail" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nombre" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="direccion" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="apellido" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="imagen" type="tns:bufferedImage" minOccurs="0"></xs:element>
+<xs:element name="fechaNacimiento" type="tns:dataFecha" minOccurs="0"></xs:element>
+<xs:element name="pedidos" type="tns:dataPedido" nillable="true" minOccurs="0" maxOccurs="unbounded"></xs:element>
+<xs:element name="contra" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dataComentario">
+<xs:sequence>
+<xs:element name="contenido" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="puntaje" type="xs:int"></xs:element>
+<xs:element name="fecha" type="tns:dataFecha" minOccurs="0"></xs:element>
+<xs:element name="infoPedido" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="estado">
+<xs:restriction base="xs:string">
+<xs:enumeration value="Recibido"></xs:enumeration>
+<xs:enumeration value="Preparacion"></xs:enumeration>
+<xs:enumeration value="Enviado"></xs:enumeration>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>
